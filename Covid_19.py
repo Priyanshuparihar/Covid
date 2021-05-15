@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import matplotlib.pyplot as plt
-#package
+
 def prepare_df(df_name):
 	df=pd.read_csv(df_name)
 	df=df.T
